@@ -1,0 +1,16 @@
+# Excel Dateien (zu groß für GitHub)
+*.xls
+*.xlsx
+*.xlsm
+
+# JSON Daten
+*.json
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporäre Dateien
+*.tmp
+*.bak
