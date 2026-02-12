@@ -39,7 +39,7 @@ canvas { max-height: 450px; }
     .main-tab { padding: 12px 15px; font-size: 14px; }
     .sub-tab { padding: 8px 12px; font-size: 13px; }
     .sub-content { padding: 15px; }
-    canvas { max-height: 400px; }
+    canvas { max-height: 500px; }
     .stats-grid { grid-template-columns: 1fr; }
 }
 </style>
@@ -94,10 +94,10 @@ new Chart(document.getElementById('bs0'),{type:'line',data:{labels:y,datasets:[
 {label:'Stufe 3',data:d.map(x=>x.stufe_3_sch),borderColor:'#ffce56',backgroundColor:'rgba(255,206,86,0.1)',tension:0.4},
 {label:'Stufe 4',data:d.map(x=>x.stufe_4_sch),borderColor:'#4bc0c0',backgroundColor:'rgba(75,192,192,0.1)',tension:0.4},
 {label:'Gesamt',data:d.map(x=>x.gesamt_sch),borderColor:'#9966ff',backgroundColor:'rgba(153,102,255,0.1)',borderWidth:1.5,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('bk0'),{type:'line',data:{labels:y,datasets:[
 {label:'Gesamtklassen',data:d.map(x=>x.gesamt_kl),borderColor:'#667eea',backgroundColor:'rgba(102,126,234,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2,pointHoverRadius:4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 </script>
 </div><div class="sub-content " id="sub-content-1-1">
@@ -120,10 +120,10 @@ new Chart(document.getElementById('bs1'),{type:'line',data:{labels:y,datasets:[
 {label:'Stufe 3',data:d.map(x=>x.stufe_3_sch),borderColor:'#ffce56',backgroundColor:'rgba(255,206,86,0.1)',tension:0.4},
 {label:'Stufe 4',data:d.map(x=>x.stufe_4_sch),borderColor:'#4bc0c0',backgroundColor:'rgba(75,192,192,0.1)',tension:0.4},
 {label:'Gesamt',data:d.map(x=>x.gesamt_sch),borderColor:'#9966ff',backgroundColor:'rgba(153,102,255,0.1)',borderWidth:1.5,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('bk1'),{type:'line',data:{labels:y,datasets:[
 {label:'Gesamtklassen',data:d.map(x=>x.gesamt_kl),borderColor:'#667eea',backgroundColor:'rgba(102,126,234,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2,pointHoverRadius:4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 </script>
 </div><div class="sub-content " id="sub-content-1-2">
@@ -146,10 +146,10 @@ new Chart(document.getElementById('bs2'),{type:'line',data:{labels:y,datasets:[
 {label:'Stufe 3',data:d.map(x=>x.stufe_3_sch),borderColor:'#ffce56',backgroundColor:'rgba(255,206,86,0.1)',tension:0.4},
 {label:'Stufe 4',data:d.map(x=>x.stufe_4_sch),borderColor:'#4bc0c0',backgroundColor:'rgba(75,192,192,0.1)',tension:0.4},
 {label:'Gesamt',data:d.map(x=>x.gesamt_sch),borderColor:'#9966ff',backgroundColor:'rgba(153,102,255,0.1)',borderWidth:1.5,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('bk2'),{type:'line',data:{labels:y,datasets:[
 {label:'Gesamtklassen',data:d.map(x=>x.gesamt_kl),borderColor:'#667eea',backgroundColor:'rgba(102,126,234,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2,pointHoverRadius:4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 </script>
 </div></div><div class="main-content" id="main-content-2"><div class="sub-tabs" id="sub-tabs-2"><button class="sub-tab active" onclick="showSubTab(2,0)">GS Medelsheim</button><button class="sub-tab " onclick="showSubTab(2,1)">GS Reinheim</button></div><div class="sub-content active" id="sub-content-2-0">
@@ -172,10 +172,10 @@ new Chart(document.getElementById('gs0'),{type:'line',data:{labels:y,datasets:[
 {label:'Stufe 3',data:d.map(x=>x.stufe_3_sch),borderColor:'#ffce56',backgroundColor:'rgba(255,206,86,0.1)',tension:0.4},
 {label:'Stufe 4',data:d.map(x=>x.stufe_4_sch),borderColor:'#4bc0c0',backgroundColor:'rgba(75,192,192,0.1)',tension:0.4},
 {label:'Gesamt',data:d.map(x=>x.gesamt_sch),borderColor:'#9966ff',backgroundColor:'rgba(153,102,255,0.1)',borderWidth:1.5,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('gk0'),{type:'line',data:{labels:y,datasets:[
 {label:'Gesamtklassen',data:d.map(x=>x.gesamt_kl),borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2,pointHoverRadius:4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 </script>
 </div><div class="sub-content " id="sub-content-2-1">
@@ -198,10 +198,10 @@ new Chart(document.getElementById('gs1'),{type:'line',data:{labels:y,datasets:[
 {label:'Stufe 3',data:d.map(x=>x.stufe_3_sch),borderColor:'#ffce56',backgroundColor:'rgba(255,206,86,0.1)',tension:0.4},
 {label:'Stufe 4',data:d.map(x=>x.stufe_4_sch),borderColor:'#4bc0c0',backgroundColor:'rgba(75,192,192,0.1)',tension:0.4},
 {label:'Gesamt',data:d.map(x=>x.gesamt_sch),borderColor:'#9966ff',backgroundColor:'rgba(153,102,255,0.1)',borderWidth:1.5,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('gk1'),{type:'line',data:{labels:y,datasets:[
 {label:'Gesamtklassen',data:d.map(x=>x.gesamt_kl),borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2,pointHoverRadius:4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:1}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 </script>
 </div></div></div><script>
@@ -213,12 +213,12 @@ new Chart(document.getElementById('cgs'),{type:'line',data:{labels:y,datasets:[
 {label:'Blieskastel',data:bd.map(d=>d.gesamt_sch),borderColor:'#667eea',backgroundColor:'rgba(102,126,234,0.1)',borderWidth:1.5,tension:0.4},
 {label:'Gersheim',data:gd.map(d=>d.gesamt_sch),borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.1)',borderWidth:1.5,tension:0.4},
 {label:'Gesamt',data:bd.map((d,i)=>d.gesamt_sch+gd[i].gesamt_sch),borderColor:'#ff6384',backgroundColor:'rgba(255,99,132,0.1)',borderWidth:2,tension:0.4}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Schüler'}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 new Chart(document.getElementById('cgk'),{type:'line',data:{labels:y,datasets:[
 {label:'Blieskastel',data:bd.map(d=>d.gesamt_kl),borderColor:'#667eea',backgroundColor:'rgba(102,126,234,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2},
 {label:'Gersheim',data:gd.map(d=>d.gesamt_kl),borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.2)',borderWidth:1.5,fill:true,tension:0.4,pointRadius:2},
 {label:'Gesamt',data:bd.map((d,i)=>d.gesamt_kl+gd[i].gesamt_kl),borderColor:'#ff6384',backgroundColor:'rgba(255,99,132,0.2)',borderWidth:2,fill:true,tension:0.4,pointRadius:2.5}
-]},options:{responsive:true,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:2}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
+]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:15}}},scales:{y:{beginAtZero:true,title:{display:true,text:'Anzahl Klassen'},ticks:{stepSize:2}},x:{ticks:{maxRotation:45,minRotation:45}}}}});
 })();
 function showMainTab(i){
 document.querySelectorAll('.main-content').forEach(c=>c.classList.remove('active'));
