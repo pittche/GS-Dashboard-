@@ -14,3 +14,4 @@ __pycache__/
 # Temporäre Dateien
 *.tmp
 *.bak
+tmpclaude-*
